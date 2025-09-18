@@ -6,7 +6,8 @@ function Axios() {
     const token = process.env.REACT_APP_TOKEN;
 
     const api = axios.create({
-        baseURL: process.env.REACT_APP_URL,
+        // baseURL: process.env.REACT_APP_URL,
+        baseURL: "https://convite-casamento-js.vercel.app",
         headers: {
             'Content-Type': 'application/json'
         }
