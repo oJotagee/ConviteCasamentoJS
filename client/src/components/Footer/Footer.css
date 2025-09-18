@@ -1,0 +1,16 @@
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    font-family: 'Great Vibes', serif;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--color-text-white);
+    background-color: var(--color-background-green);
+    font-size: 25px;
+}
+
+.footer-container h4 {
+    margin: 0px;
+}

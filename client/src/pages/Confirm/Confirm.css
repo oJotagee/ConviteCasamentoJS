@@ -1,0 +1,78 @@
+.container-invites {
+    background-color: var(--color-background-green-light);
+    color: var(--color-text-green);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px;
+    margin-top: 70px;
+}
+
+.container-invites h3 {
+    margin: 0px;
+    font-size: 30px;
+}
+
+.container-invites p {
+    text-align: center;
+    font-size: 16px;
+    width: 800px;
+}
+
+.container-invites input {
+    width: 500px;
+    height: 35px;
+    border: 1px solid var(--color-border-gray);
+    border-radius: 6px;
+    background: none;
+    font-size: 18px;
+    padding: 0px 15px;
+    font-weight: 300;
+    font-family: 'Poppins', serif;
+    outline: none;
+    margin: 20px 0px;
+}
+
+.btn-search {
+    color: var(--color-text-white);
+    background-color: var(--color-background-green);
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+    padding: 15px 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: background-color 1s ease;
+}
+
+.btn-search:hover {
+    background-color: var(--color-background-green-dark);
+}
+
+.btn-search:disabled {
+    background-color: var( --color-background-green-light-disabled);
+    cursor: not-allowed;
+}
+
+.img-secondary {
+    height: 350px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-background-img-gray);
+    /* background-image: url("/public/images/Bianca-e-Jonathan-31.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center calc(100% + 80px);
+}
+
+.btn-new-search {
+    border: none;
+    background: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: var(--color-background-green);
+    text-decoration: underline;
+}

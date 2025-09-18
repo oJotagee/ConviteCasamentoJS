@@ -1,0 +1,520 @@
+@media (max-width: 768px) {
+    .img-main {
+        height: 550px;
+    }
+
+    .confirm-container {
+        display: block;
+    }
+
+    .nav-menu {
+        height: 72px;
+        justify-content: space-between;
+    }
+
+    .modal-pix-container img {
+        width: 160px;
+    }
+
+    .modal-pix-container {
+        padding: 20px 15px;
+        text-align: center;
+    }
+
+    .modal-pix-container h3{
+        font-size: 15px;
+    }
+
+    .modal-pix-container h4 {
+        font-size: 12px;
+    }
+
+    .nav-wedding,
+    .div-invisble,
+    .divisor-colors,
+    .container-infos .divisor-left,
+    .container-infos .divisor-right,
+    .footer-container .logo-footer,
+    .footer-container .space-footer {
+        display: none;
+    }
+
+    .menu-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu-button svg {
+        stroke: var(--color-esmerald);
+        fill: var(--color-esmerald);
+    }
+
+    .card-counting-container {
+        padding: 5px 20px;
+        height: 140px;
+    }
+
+    .container-infos {
+        padding: 0px 100px;
+        max-width: 100%;
+    }
+
+    .colors-circle-container {
+        padding: 20px 0px;
+    }
+
+    .text-option,
+    .text-bible,
+    .colors-container p,
+    .container-msg p,
+    .container-invites p {
+        width: 100% !important;
+        max-width: 600px;
+    }
+
+    .colors-container p,
+    .text-bible {
+        text-align: center;
+    }
+
+    .card-counting-container .divisor-card {
+        width: 70px;
+    }
+
+    .card-counting-container .timer-card {
+        font-size: 25px;
+    }
+
+    .card-counting-container .moment-card {
+        font-size: 12px;
+    }
+
+    .map iframe {
+        width: 400px;
+        height: 250px;
+    }
+
+    .footer-container {
+        justify-content: center;
+        padding: 20px 0px;
+    }
+
+    .bar-horizontal {
+        width: 100px;
+    }
+
+    .img-main h1 {
+        font-size: 60px;
+        padding: 10px;
+        margin-top: -35px;
+    }
+
+    .container-infos {
+        padding: 10px 0px 10px 0px;
+    }
+
+    .container-infos h1 {
+        font-size: 45px;
+    }
+
+    .container-infos p,
+    .container-msg p {
+        font-size: 14px;
+    }
+
+    .container-infos h3,
+    .container-msg h3 {
+        font-size: 22px;
+    }
+
+    .container-msg {
+        padding: 5px 0px 10px;
+    }
+
+    .btn-gifts {
+        font-size: 20px;
+        margin: 15px 0px;
+    }
+
+    .footer-container h4 {
+        font-size: 24px;
+    }
+
+    .inputs-container {
+        max-width: 600px;
+    }
+
+    .inputs-container,
+    .input-container,
+    .input-container input,
+    .input-container textarea {
+        width: 100%;
+    }
+
+    .img-secondary {
+        height: 300px;
+        background-position: center calc(100% + 50px);
+    }
+
+    .embla {
+        --slide-height: 20rem;
+        --slide-size: 80%;
+    }
+}
+
+@media (max-width: 548px) {
+    .container-invites input {
+        max-width: 390px;
+    }
+}
+
+@media (max-width: 440px) {
+    .img-main {
+        height: 400px;
+    }
+
+    .container-invites input {
+        font-size: 16px;
+    }
+
+    .img-secondary {
+        height: 320px;
+        background-position: center calc(100% + 40px);
+    }
+
+    .bar-horizontal {
+        width: 100px;
+    }
+
+    .img-main h1 {
+        font-size: 42px;
+        padding: 10px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .container-infos {
+        padding: 10px 0px 10px 0px;
+    }
+
+    .container-infos h1 {
+        font-size: 35px;
+    }
+
+    .text-option {
+        font-size: 12px;
+    }
+
+    .text-option {
+        max-width: 350px;
+        margin: 10px 0px;
+    }
+
+    .map iframe {
+        width: 300px;
+        height: 200px;
+    }
+
+    .container-msg p,
+    .container-invites p,
+    .colors-container p {
+        font-size: 12px;
+    }
+
+    .circle {
+        width: 40px;
+        height: 40px;
+    }
+
+    .circle-color-container span {
+        font-size: 12px;
+    }
+
+    .card-counting-container {
+        height: 130px;
+        margin: 0px 6px;
+    }
+
+    .card-counting-container .divisor-card {
+        width: 40px;
+    }
+
+    .card-counting-container .timer-card {
+        font-size: 22px;
+    }
+
+    .card-counting-container .moment-card {
+        font-size: 11px;
+    }
+
+    .divisor {
+        width: 150px;
+    }
+
+    .container-infos h4 {
+        margin: 10px 0px;
+    }
+
+    .cards-container {
+        margin: 15px 0px;
+    }
+
+    .container-invites p,
+    .container-invites input {
+        width: 100% !important;
+        max-width: 300px;
+    }
+
+    .btn-search {
+        padding: 10px 80px;
+        margin: 10px 0px;
+        font-size: 16px;
+    }
+
+    .btn-new-search {
+        font-size: 16px;
+    }
+
+    .member-container {
+        width: 360px;
+    }
+
+    .member-container:not(:first-child) {
+        width: 350px;
+    }
+
+    .label-container {
+        padding: 20px 28px;
+    }
+
+    .container-infos h3,
+    .container-msg h3,
+    .container-invites h3,
+    .colors-container h3,
+    .gallery-photos h3,
+    .message-container h3 {
+        font-size: 20px;
+    }
+
+    .colors-circle-container {
+        margin-top: 20px;
+    }
+
+    .container-msg h3 {
+        margin: 10px 0px;
+    }
+
+    .container-msg p,
+    .colors-container p {
+        max-width: 350px;
+    }
+
+    .container-msg {
+        padding: 5px 10px 10px;
+    }
+
+    .btn-gifts {
+        font-size: 12px;
+    }
+
+    .footer-container {
+        padding: 12px 0px;
+    }
+
+    .footer-container h4 {
+        font-size: 18px;
+    }
+
+    .btn-gifts {
+        font-size: 18px;
+        margin: 15px 0px;
+    }
+
+    .inputs-container {
+        max-width: 350px;
+    }
+
+    .input-container label {
+        font-size: 14px;
+    }
+
+    .input-container input, 
+    .input-container textarea {
+        font-size: 14px;
+        max-width: 320px;
+    }
+
+    .btn-send-message {
+        padding: 12px 80px;
+        font-size: 18px;
+    }
+
+    .modal-pix-container img {
+        width: 150px;
+    }
+
+    .modal-pix-container {
+        padding: 15px 5px;
+    }
+
+    .modal-pix-container h1 {
+        font-size: 18px;
+    }
+
+    .modal-pix-container h3{
+        font-size: 14px;
+    }
+
+    .modal-pix-container h4 {
+        font-size: 12px;
+    }
+
+    .embla {
+        --slide-height: 18rem;
+    }
+
+    .copy-paste-container {
+        width: 80%;
+    }
+}
+
+@media (max-width: 375px) {
+    .img-main {
+        height: 380px;
+    }
+
+    .img-secondary {
+        height: 320px;
+        background-position: center calc(100% + 30px);
+    }
+
+    .container-invites input {
+        max-width: 280px;
+        font-size: 14px;
+    }
+
+    .member-container {
+        width: 300px;
+    }
+
+    .member-container:not(:first-child) {
+        width: 290px;
+    }
+
+    .divisor {
+        width: 100px;
+    }
+
+    .bar-horizontal {
+        width: 80px;
+    }
+
+    .img-main h1 {
+        font-size: 40px;
+        margin-top: -40px;
+    }
+
+    .container-infos p,
+    .container-msg p {
+        font-size: 10px;
+    }
+
+    .divisor,
+    .container-infos h3,
+    .container-msg,
+    .colors-container h3,
+    .gallery-photos h3,
+    .message-container {
+        margin-top: -20px;
+    }
+
+    .input-container {
+        margin-top: 8px;
+    }
+
+    .inputs-container {
+        max-width: 300px;
+    }
+
+    .input-container input, .input-container textarea {
+        max-width: 270px;
+    }
+
+    .colors-circle-container {
+        margin-bottom: 40px;
+    }
+
+    .btn-send-message {
+        padding: 10px 70px;
+    }
+
+    .container-infos h3,
+    .container-msg h3,
+    .container-invites h3 {
+        font-size: 18px;
+    }
+
+    .container-infos h4 {
+        font-size: 14px;
+    }
+
+    .card-counting-container {
+        margin: 0px 5px;
+        height: 100px;
+        padding: 5px 15px;
+    }
+
+    .divisor-card {
+        width: 30px;
+    }
+
+    .card-counting-container .timer-card {
+        font-size: 20px;
+    }
+
+    .card-counting-container .moment-card {
+        font-size: 10px;
+    }
+
+    .footer-container h4 {
+        font-size: 15px;
+    }
+
+    .modal-pix-container img {
+        width: 140px;
+        margin-bottom: 5px;
+    }
+
+    .modal-pix-container {
+        padding: 15px 5px;
+    }
+
+    .modal-pix-container h1 {
+        font-size: 16px;
+    }
+
+    .modal-pix-container h3{
+        font-size: 13px;
+        margin-top: 0px;
+    }
+
+    .modal-pix-container h4 {
+        font-size: 11px;
+    }
+
+    .embla {
+        --slide-height: 15rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .container-invites input {
+        font-size: 14px;
+        max-width: 230px;
+    }
+
+    .embla {
+        --slide-height: 10rem;
+    }
+}
