@@ -38,7 +38,7 @@ function PixQR({ setShowQR }: IPixQRProps) {
             <div className="modal" onClick={closeImage}>
                 <div onClick={(e) => e.stopPropagation()} className="modal-pix-container">
                     <h1>Nosso QR Code para realizar o PIX!</h1>
-                    <img src="/images/qrcode.jpg" alt="Imagem Ampliada" className="modal-img" />
+                    <img src="/images/qrcode.jpeg" alt="Imagem Ampliada" className="modal-img" />
                     <div className="copy-paste-container">
                         <input readOnly={true} value={pixCopyPaste} />
                         <div className="copy-text-btn-container">
