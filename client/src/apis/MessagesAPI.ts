@@ -3,7 +3,7 @@ import { api } from "../configurations/Axios";
 
 const SendMessage = async (name: string, message: string) => {
     try {
-        const result = await api.post(`/SendMessage`, { "name": name, "message": message });
+        const result = await api.post(`/api/SendMessage`, { "name": name, "message": message });
         const response = await result.data;
         return response;
     }
@@ -14,7 +14,7 @@ const SendMessage = async (name: string, message: string) => {
 
 const GetAllMessages = async () => {
     try {
-        const result = await api.get(`GetAllMessages`);
+        const result = await api.get(`api/GetAllMessages`);
         const response = await result.data as IMessageResponse[];
         return response;
     }
