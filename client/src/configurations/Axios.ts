@@ -12,13 +12,13 @@ function Axios() {
         }
     });
 
-    api.interceptors.request.use(request => {
-        request.headers.Authorization = `Basic ${token}`
+    // api.interceptors.request.use(request => {
+    //     request.headers.Authorization = `Basic ${token}`
 
-        return request;
-    }, (error: AxiosError) => {
-        return Promise.reject(error);
-    });
+    //     return request;
+    // }, (error: AxiosError) => {
+    //     return Promise.reject(error);
+    // });
 
     api.interceptors.response.use(response => {
         return response;
